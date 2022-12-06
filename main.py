@@ -59,10 +59,10 @@ while True:
             print(text)
        
             if text == 'horário' or text == ' me diga as horas':
-                 speak(core.SystemInfo.get_time())
+                speak(core.SystemInfo.get_time())
 
             if text == 'data de hoje' or text =='data atual':
-                 speak(core.SystemInfo.get_data()) 
+                speak(core.SystemInfo.get_data()) 
             
             if text == 'se apresente' or text =='como se chama':
-                 speak(core.Pessoa.get_nome()) 
+                speak(core.Pessoa.get_nome()) 
